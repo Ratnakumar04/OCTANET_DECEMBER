@@ -1,0 +1,84 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+body{
+    background-image:url("https://images.pexels.com/photos/280221/pexels-photo-280221.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+    background-size:cover;
+    height:100vh;
+    width:100vw;
+    display:flex;
+    justify-content: center;
+    align-items:center;
+}
+.container{
+    width:90%;
+    height:90%;
+    background:linear-gradient(rgba(241, 235, 235, 0.8),rgba(0,0,0,0.4));
+}
+
+.image{
+    padding:40px;
+    margin-left:30px;
+}
+header{
+    width:100%;
+    height:17%;
+    background:linear-gradient(rgba(210, 212, 214, 0.8),rgba(242, 232, 232, 0.601));
+    display:flex;
+    justify-content:left;
+    align-items:center;
+    
+}
+header a{
+    text-decoration:none;
+    color:rgb(12, 9, 9);
+    border-radius:10px;
+    padding:20px;
+    font-size:20px;
+}
+img{
+    border-radius:50px;
+}
+
+header a:hover{
+    background-color:rgb(13, 4, 45);
+    color:rgb(234, 218, 218);
+    transition:0.3s ease;
+}
+.text{
+    max-width:450px;
+    color:rgb(0, 4, 5);
+    margin-left:100px;
+    margin-top:150px;
+}
+.text h1{
+    font-size:50px;
+    padding:10px;
+    border-left:5px solid orange;
+}
+.text p{
+    margin:20px 0px;
+    color:black;
+    font-size:15px;
+    text-align:justify;
+}
+button {
+    font-size: 1.5rem;
+    padding: 0.6rem 1rem;
+    font-weight: bold;
+    color: rgb(5, 1, 9);
+    background: solid rgb(232, 232, 236);
+    border-radius: 10px;
+    cursor: pointer;
+    border: none;
+}
+button:hover {
+    background: rgb(17, 1, 53);
+    outline: 1px solid rgb(1, 3, 10);
+    color: rgb(227, 228, 234);
+    border: none;
+}
+
+
+
